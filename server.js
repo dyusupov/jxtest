@@ -55,7 +55,7 @@ function watch(client, creationTimestamp) {
 		}
 	});
 	jsonStream.on('end', object => {
-		console.log('Reconnect stream');
+		console.log('Reconnect stream  vvv');
 		watch(client, creationTimestamp);
 	});
 }
